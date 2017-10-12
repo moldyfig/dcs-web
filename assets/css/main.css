@@ -3353,133 +3353,129 @@
 
 
     /* Banner */
-    #banner {
+    .banner {
         background-color: #848484;
         color: #f2f2f2;
         padding: 13em 0 11em 0;
         background-color: #0c0c0c;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 15% left;
+        text-align: left;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .banner-main {
         background-image: url("../../images/201701_01.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 15% left;
-        text-align: left;
-        position: relative;
-        z-index: 9999;
     }
 
-    #banner-about {
-        background-color: #848484;
-        color: #f2f2f2;
-        padding: 13em 0 11em 0;
-        background-color: #0c0c0c;
+    .banner-about {
         background-image: url("../../images/201705_01.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 15% left;
-        text-align: left;
-        position: relative;
-        z-index: 9999;
     }
 
+    .banner-musicians {
+        background-image: url("../../images/musicians.jpg");
+    }
 
-    #banner input, #banner select, #banner textarea {
+    .banner input, .banner select, .banner textarea {
         color: #ffffff;
     }
 
-    #banner a {
+    .banner a {
         color: #ffffff;
     }
 
-    #banner strong, #banner b {
+    .banner strong, .banner b {
         color: #ffffff;
     }
 
-    #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6, #banner-about h1 {
+    .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6, .banner-about h1 {
         color: #fff;
     }
 
-    #banner blockquote {
+    .banner blockquote {
         border-left-color: #fff;
     }
 
-    #banner code {
+    .banner code {
         background: none;
         border-color: #fff;
     }
 
-    #banner hr {
+    .banner hr {
         border-bottom-color: #fff;
     }
 
-    #banner input[type="submit"],
-    #banner input[type="reset"],
-    #banner input[type="button"],
-    #banner button,
-    #banner .button {
+    .banner input[type="submit"],
+    .banner input[type="reset"],
+    .banner input[type="button"],
+    .banner button,
+    .banner .button {
         background-color: #5a5a5a;
         color: #ffffff !important;
     }
 
-    #banner input[type="submit"]:hover,
-    #banner input[type="reset"]:hover,
-    #banner input[type="button"]:hover,
-    #banner button:hover,
-    #banner .button:hover {
+    .banner input[type="submit"]:hover,
+    .banner input[type="reset"]:hover,
+    .banner input[type="button"]:hover,
+    .banner button:hover,
+    .banner .button:hover {
         background-color: #676767;
     }
 
-    #banner input[type="submit"]:active,
-    #banner input[type="reset"]:active,
-    #banner input[type="button"]:active,
-    #banner button:active,
-    #banner .button:active {
+    .banner input[type="submit"]:active,
+    .banner input[type="reset"]:active,
+    .banner input[type="button"]:active,
+    .banner button:active,
+    .banner .button:active {
         background-color: #4d4d4d;
     }
 
-    #banner input[type="submit"].alt,
-    #banner input[type="reset"].alt,
-    #banner input[type="button"].alt,
-    #banner button.alt,
-    #banner .button.alt {
+    .banner input[type="submit"].alt,
+    .banner input[type="reset"].alt,
+    .banner input[type="button"].alt,
+    .banner button.alt,
+    .banner .button.alt {
         background-color: transparent;
         box-shadow: inset 0 0 0 2px #fff;
         color: #ffffff !important;
     }
 
-    #banner input[type="submit"].alt:hover,
-    #banner input[type="reset"].alt:hover,
-    #banner input[type="button"].alt:hover,
-    #banner button.alt:hover,
-    #banner .button.alt:hover {
+    .banner input[type="submit"].alt:hover,
+    .banner input[type="reset"].alt:hover,
+    .banner input[type="button"].alt:hover,
+    .banner button.alt:hover,
+    .banner .button.alt:hover {
         background: rgba(255, 255, 255, 0.25);
     }
 
-    #banner input[type="submit"].alt:active,
-    #banner input[type="reset"].alt:active,
-    #banner input[type="button"].alt:active,
-    #banner button.alt:active,
-    #banner .button.alt:active {
+    .banner input[type="submit"].alt:active,
+    .banner input[type="reset"].alt:active,
+    .banner input[type="button"].alt:active,
+    .banner button.alt:active,
+    .banner .button.alt:active {
         background-color: rgba(255, 255, 255, 0.2);
     }
 
-    #banner input[type="submit"].alt.icon:before,
-    #banner input[type="reset"].alt.icon:before,
-    #banner input[type="button"].alt.icon:before,
-    #banner button.alt.icon:before,
-    #banner .button.alt.icon:before {
+    .banner input[type="submit"].alt.icon:before,
+    .banner input[type="reset"].alt.icon:before,
+    .banner input[type="button"].alt.icon:before,
+    .banner button.alt.icon:before,
+    .banner .button.alt.icon:before {
         color: #f8d1d2;
     }
 
-    #banner input[type="submit"].special,
-    #banner input[type="reset"].special,
-    #banner input[type="button"].special,
-    #banner button.special,
-    #banner .button.special {
+    .banner input[type="submit"].special,
+    .banner input[type="reset"].special,
+    .banner input[type="button"].special,
+    .banner button.special,
+    .banner .button.special {
         background-color: #ffffff;
         color: #848484 !important;
     }
 
-    #banner:after {
+    .banner:after {
         -moz-transition: opacity 4s ease;
         -webkit-transition: opacity 4s ease;
         -ms-transition: opacity 4s ease;
@@ -3495,33 +3491,7 @@
         opacity: 0.25;
     }
 
-    #banner-about:after {
-        -moz-transition: opacity 4s ease;
-        -webkit-transition: opacity 4s ease;
-        -ms-transition: opacity 4s ease;
-        transition: opacity 4s ease;
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: block;
-        top: 0;
-        left: 0;
-        background-color: #0c0c0c;
-        opacity: 0.25;
-    }
-
-    #banner .inner {
-        max-width: 65em;
-        width: calc(100% - 6em);
-        margin: 0 auto;
-        position: relative;
-        top: 120px;
-        z-index: 10000;
-        line-height: 1.5;
-    }
-
-    #banner-about .inner {
+    .banner .inner {
         max-width: 65em;
         width: calc(100% - 6em);
         margin: 0 auto;
@@ -3533,13 +3503,13 @@
 
     @media screen and (max-width: 480px) {
 
-        #banner .inner {
+        .banner .inner {
             max-width: 90%;
             width: 90%;
         }
     }
 
-    #banner h1 {
+    .banner h1 {
         font-size: 2em;
         margin: 0 0 1em 0;
         padding: 0;
@@ -3547,33 +3517,25 @@
         font-weight: 700;
     }
 
-    #banner-about h1 {
-        font-size: 2em;
-        margin: 0 0 1em 0;
-        padding: 0;
-        letter-spacing: 3px;
-        font-weight: 700;
-    }
-
-    #banner h1 span {
+    .banner h1 span {
         font-weight: 400;
     }
 
-    #banner .inner p {
+    .banner .inner p {
         font-size: 1.5em;
     }
 
-    body.is-loading #banner:after {
+    body.is-loading .banner:after {
         opacity: 1;
     }
 
-    body.is-loading #banner-about:after {
+    body.is-loading .banner-about:after {
         opacity: 1;
     }
 
     @media screen and (max-width: 1680px) {
 
-        #banner {
+        .banner {
             padding: 10em 0 8em 0;
         }
 
@@ -3581,7 +3543,7 @@
 
     @media screen and (max-width: 1280px) {
 
-        #banner {
+        .banner {
             padding: 8em 0 6em 0;
         }
 
@@ -3589,33 +3551,33 @@
 
     @media screen and (max-width: 980px) {
 
-        #banner {
+        .banner {
             padding: 12em 0 10em 0;
         }
 
-        #banner br {
+        .banner br {
             display: none;
         }
     }
 
     @media screen and (max-width: 736px) {
 
-        #banner {
+        .banner {
             padding: 4em 0 2em 0;
         }
 
-        #banner h1 {
+        .banner h1 {
             font-size: 1.75em;
         }
     }
 
     @media screen and (max-width: 480px) {
 
-        #banner {
+        .banner {
             padding: 5em 0 3em 0;
         }
 
-        #banner ul {
+        .banner ul {
             margin-top: 1em;
         }
     }
@@ -3754,6 +3716,10 @@
     #three .inner article .icon {
         color: #b3b3b3;
         font-size: 3em;
+    }
+
+    #three .inner article {
+        font-weight: 500;
     }
 
     @media screen and (max-width: 980px) {

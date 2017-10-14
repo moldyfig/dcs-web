@@ -3378,6 +3378,10 @@
         background-image: url("../../images/musicians.jpg");
     }
 
+    .banner-support {
+        background-image: url("../../images/support.jpg");
+    }
+
     .banner input, .banner select, .banner textarea {
         color: #ffffff;
     }
@@ -3630,6 +3634,7 @@
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
+        font-weight: 500;
     }
 
     #two .inner article {
@@ -3642,6 +3647,10 @@
 
     #two .inner article:last-child {
         padding-left: 6em;
+    }
+
+    #two .inner .smallprint {
+        font-size: 80%;
     }
 
     @media screen and (max-width: 980px) {

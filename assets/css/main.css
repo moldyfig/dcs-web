@@ -3382,6 +3382,10 @@
         background-image: url("../../images/support.jpg");
     }
 
+    .banner-contact {
+        background-image: url("../../images/contact.jpg");
+    }
+
     .banner input, .banner select, .banner textarea {
         color: #ffffff;
     }

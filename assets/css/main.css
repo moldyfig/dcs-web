@@ -3720,6 +3720,8 @@
     #three .inner article {
         width: 26%;
         display: block;
+        font-weight: 500;
+        font-size: 90%;
     }
 
     #three .inner article p {
@@ -3731,12 +3733,11 @@
         font-size: 3em;
     }
 
-    #three .inner article {
-        font-weight: 500;
-        font-size: 90%;
-    }
-
     @media screen and (max-width: 980px) {
+
+        #three {
+            padding: 4em 0 2em 0;
+        }
 
         #three .inner {
             -moz-flex-direction: column;
@@ -3748,12 +3749,6 @@
         #three .inner article {
             width: 100%;
             margin: 0 auto;
-        }
-    }
-
-    @media screen and (max-width: 980px) {
-        #three {
-            padding: 4em 0 2em 0;
         }
     }
 
@@ -3795,12 +3790,31 @@
         display: block;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 980px) {
+
+        #footer {
+            padding: 4em 0 2em 0;
+        }
+
         #footer .inner {
-            max-width: 90%;
-            width: 90%;
+            -moz-flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        #footer .inner article {
+            width: 100%;
+            margin: 0 auto;
         }
     }
+
+    @media screen and (max-width: 736px) {
+        #footer {
+            padding: 2em 0 0.1em 0;
+        }
+    }
+
 
 
     /* REVISIT: Why is this commented out? Did I do that? */

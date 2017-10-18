@@ -3095,6 +3095,7 @@
         color: #d5d5d5;
         cursor: default;
         height: 5em;
+        min-height: 5em;
         left: 0;
         line-height: 5em;
         position: fixed;
@@ -3116,6 +3117,7 @@
         #header .inner {
             max-width: 90%;
             width: 90%;
+            height: 6em;
         }
 
    }
@@ -3175,13 +3177,19 @@
 
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 510px) {
 
         #header {
             min-width: 320px;
             font-size: 60%;
+            height: 9em;
+        }
+
+        #header .inner {
+            margin-top: 2em;
         }
     }
+
 
 
     /* Menu */
@@ -3200,10 +3208,10 @@
     .navPanelToggle {
         position: fixed;
         text-decoration: none;
-        height: 4em;
+        height: 3em;
         right: 3em;
-        top: .75em;
-        width: 4em;
+        top: .5em;
+        width: 3em;
         display: none;
         z-index: 10002;
     }
@@ -3515,6 +3523,7 @@
         .banner .inner {
             max-width: 90%;
             width: 90%;
+            font-size: 80%;
         }
     }
 

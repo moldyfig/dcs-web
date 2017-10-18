@@ -3179,6 +3179,7 @@
 
         #header {
             min-width: 320px;
+            font-size: 60%;
         }
     }
 
@@ -3504,7 +3505,7 @@
         width: calc(100% - 6em);
         margin: 0 auto;
         position: relative;
-        top: 120px;
+        top: 100px;
         z-index: 10000;
         line-height: 1.5;
     }
@@ -3517,6 +3518,16 @@
         }
     }
 
+    @media screen and (max-width: 736px) {
+
+        .banner .inner {
+            max-width: 90%;
+            width: 90%;
+            top: 50px;
+        }
+    }
+
+
     .banner h1 {
         font-size: 1.7em;
         margin: 0 0 1em 0;
@@ -3527,6 +3538,19 @@
 
     .banner h1 span {
         font-weight: 400;
+    }
+
+    .banner .header-block {
+        margin: 0 0 1em 0;
+    }
+
+    .banner .header-line {
+        font-size: 1.7em;
+        margin: 0 0 0 0;
+        padding: 0;
+        letter-spacing: 3px;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 
     .banner .inner p {

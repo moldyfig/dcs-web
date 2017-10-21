@@ -3115,8 +3115,8 @@
     @media screen and (max-width: 480px) {
 
         #header .inner {
-            max-width: 90%;
-            width: 90%;
+            /* max-width: 90%; */
+            /* width: 90%; */
             height: 6em;
         }
 
@@ -3138,7 +3138,7 @@
         color: #848484;
         font-size: 2em;
         text-transform: none;
-        font-weight: 600;
+        font-weight: 400;
         padding: 0;
     }
 
@@ -3177,11 +3177,11 @@
 
     }
 
-    @media screen and (max-width: 510px) {
+    @media screen and (max-width: 480px) {
 
         #header {
-            min-width: 320px;
-            font-size: 60%;
+            /* min-width: 320px; */
+            font-size: 80%;
             height: 9em;
         }
 
@@ -3353,7 +3353,7 @@
          color: inherit;
      }
 
-     @media screen and (max-width: 980px) {
+     @media screen and (max-width: 1024px) {
 
         #navPanel {
             display: block;
@@ -3379,6 +3379,10 @@
         background-image: url("../../images/banner.jpg");
     }
 
+    .banner-tickets {
+        background-image: url("../../images/icehouse1.jpg");
+    }
+
     .banner-about {
         background-image: url("../../images/201705_01.jpg");
     }
@@ -3388,11 +3392,11 @@
     }
 
     .banner-support {
-        background-image: url("../../images/support.jpg");
+        background-image: url("../../images/icehouse2.jpg");
     }
 
     .banner-contact {
-        background-image: url("../../images/contact.jpg");
+        background-image: url("../../images/monorchid1.jpg");
     }
 
     .banner input, .banner select, .banner textarea {

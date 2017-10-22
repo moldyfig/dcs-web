@@ -3380,7 +3380,7 @@
     }
 
     .banner-tickets {
-        background-image: url("../../images/icehouse1.jpg");
+        background-image: url("../../images/tickets.jpg");
     }
 
     .banner-about {
@@ -3388,7 +3388,7 @@
     }
 
     .banner-musicians {
-        background-image: url("../../images/musicians.jpg");
+        background-image: url("../../images/icehouse1.jpg");
     }
 
     .banner-support {
@@ -3564,6 +3564,11 @@
         letter-spacing: 3px;
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    .banner .image-caption {
+        font-size: 60%;
+        text-align: right;
     }
 
     .banner .inner p {

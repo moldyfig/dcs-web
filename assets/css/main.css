@@ -3136,7 +3136,7 @@
         top: 0;
         /* color: #848484; */
         color: #848484;
-        font-size: 2em;
+        font-size: 1.8em;
         text-transform: none;
         font-weight: 400;
         padding: 0;
@@ -3388,7 +3388,7 @@
     }
 
     .banner-musicians {
-        background-image: url("../../images/icehouse1.jpg");
+        background-image: url("../../images/musicians.jpg");
     }
 
     .banner-support {

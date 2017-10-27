@@ -3175,6 +3175,12 @@
             padding: 0 0.5em;
         }
 
+        #header {
+            /* min-width: 320px; */
+            font-size: 80%;
+            height: 9em;
+        }
+
     }
 
     @media screen and (max-width: 480px) {

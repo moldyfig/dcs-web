@@ -3169,6 +3169,7 @@
         padding-right: 0em;
     }
 
+    /*
     @media screen and (max-width: 736px) {
 
         #header a {
@@ -3176,26 +3177,29 @@
         }
 
         #header {
-            /* min-width: 320px; */
             font-size: 80%;
             height: 9em;
         }
 
     }
+    */
 
     @media screen and (max-width: 480px) {
 
-        #header {
-            /* min-width: 320px; */
-            font-size: 80%;
-            height: 9em;
+        #header .inner {
+            width: calc(100% - 3em);
         }
 
+        #header .logo {
+            font-size: 1.3em;
+        }
+
+        /*
         #header .inner {
             margin-top: 2em;
         }
+        */
     }
-
 
 
     /* Menu */

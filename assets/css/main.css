@@ -3901,6 +3901,7 @@
 
     #footer a {
         color: #ffffff;
+        text-decoration: none;
     }
 
     #footer strong, #footer b {

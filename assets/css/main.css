@@ -3395,11 +3395,11 @@
     }
 
     .banner-main {
-        background-image: url("../../images/banner201908.jpg");
+        background-image: url("../../images/banner201911.jpg");
     }
 
     .banner-tickets {
-        background-image: url("../../images/tickets201908.jpg");
+        background-image: url("../../images/tickets201911.jpg");
     }
 
     .banner-about {
@@ -3595,6 +3595,10 @@
 
     .banner .image-caption {
         font-size: 60%;
+        text-align: right;
+    }
+
+    .banner .newsflash {
         text-align: right;
     }
 

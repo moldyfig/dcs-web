@@ -3216,7 +3216,7 @@
         display: inline-block;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1160px) {
 
         #nav {
             display: none;
@@ -3254,7 +3254,7 @@
         width: 3.5em;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1160px) {
 
         .navPanelToggle {
             display: block;
@@ -3417,6 +3417,11 @@
     .banner-contact {
         background-image: url("../../images/monorchid1.jpg");
     }
+
+    .banner-community {
+        background-image: url("../../images/banner-community.jpg");
+    }
+
 
     .banner input, .banner select, .banner textarea {
         color: #ffffff;

@@ -4120,3 +4120,8 @@
         text-decoration: underline; 
     }
 
+    .image-caption {
+        font-size: 60%;
+        text-align: left;
+    }
+

@@ -2370,6 +2370,13 @@
         width: 100%;
     }
 
+    .image.centered {
+        border-radius: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+    }
+
 
     /* List */
     ol {

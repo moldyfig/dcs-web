@@ -3158,9 +3158,14 @@
         padding: 0;
     }
 
-  #header .logo-image {
-      display: inline-block;
-  }
+    #header .logo-image-span {
+        display: inline-block;
+    }
+
+    #header .logo-image {
+        max-width: 100%;
+        height: auto;
+    }
 
     #header .logo:hover {
         /* color: rgba(229, 71, 75, 0.75); */

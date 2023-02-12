@@ -3110,8 +3110,8 @@
         background: black;
         color: #d5d5d5;
         cursor: default;
-        height: 100px;
-        min-height: 100px;
+        height: 125px;
+        min-height: 125px;
         left: 0;
         line-height: 5em;
         position: fixed;
@@ -3133,7 +3133,7 @@
         #header .inner {
             /* max-width: 90%; */
             /* width: 90%; */
-            height: 100px;
+            height: 125px;
         }
 
    }
@@ -3403,11 +3403,11 @@
 
 
     /* Banner */
+    /* background-color: #848484; */
     .banner {
-        background-color: #848484;
+        background-color: #6e6e6e;
         color: #f2f2f2;
         padding: 13em 0 11em 0;
-        background-color: #0c0c0c;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 15% left;
@@ -3416,12 +3416,14 @@
         z-index: 9999;
     }
 
+    /*
     .banner-main {
         background-image: url("../../images/banner-202301.jpg");
     }
+    */
 
     .banner-tickets {
-        background-image: url("../../images/banner-tickets-202211.jpg");
+        background-image: url("../../images/banner-tickets-202303.jpg");
     }
 
     .banner-about {
@@ -3554,7 +3556,7 @@
         display: block;
         top: 0;
         left: 0;
-        background-color: #0c0c0c;
+        background-color: #6e6e6e;
         opacity: 0.25;
     }
 
@@ -3658,7 +3660,7 @@
     @media screen and (max-width: 1680px) {
 
         .banner {
-            padding: 10em 0 8em 0;
+            padding: 5em 0 8em 0;
         }
 
     }
@@ -3666,7 +3668,7 @@
     @media screen and (max-width: 1280px) {
 
         .banner {
-            padding: 8em 0 6em 0;
+            padding: 5em 0 6em 0;
         }
 
     }
@@ -3674,7 +3676,7 @@
     @media screen and (max-width: 980px) {
 
         .banner {
-            padding: 12em 0 10em 0;
+            padding: 5em 0 10em 0;
         }
 
         .banner br {

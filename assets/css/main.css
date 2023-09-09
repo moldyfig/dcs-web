@@ -3417,7 +3417,7 @@
     }
 
     .banner-main {
-        background-image: url("../../images/banner-202308.jpg");
+        background-image: url("../../images/banner-main.jpg");
     }
 
     .banner-tickets {
@@ -3443,7 +3443,6 @@
     .banner-community {
         background-image: url("../../images/banner-community.jpg");
     }
-
 
     .banner input, .banner select, .banner textarea {
         color: #ffffff;
@@ -3570,9 +3569,9 @@
 
     @media screen and (max-width: 480px) {
 
-        .banner {
-            min-height: 250px;
-        }
+        # .banner {
+        #     min-height: 400px;
+        # }
 
         .banner .inner {
             max-width: 90%;
@@ -3583,9 +3582,9 @@
 
     @media screen and (max-width: 736px) {
 
-        .banner {
-            min-height: 250px;
-        }
+        # .banner {
+        #     min-height: 400px;
+        # }
 
         .banner .inner {
             max-width: 90%;
@@ -3657,25 +3656,25 @@
 
     @media screen and (max-width: 1680px) {
 
-        .banner {
-            padding: 5em 0 8em 0;
-        }
+        # .banner {
+        #     padding: 5em 0 8em 0;
+        # }
 
     }
 
     @media screen and (max-width: 1280px) {
 
-        .banner {
-            padding: 5em 0 6em 0;
-        }
+        # .banner {
+        #     padding: 5em 0 6em 0;
+        # }
 
     }
 
     @media screen and (max-width: 980px) {
 
-        .banner {
-            padding: 5em 0 10em 0;
-        }
+        # .banner {
+        #     padding: 5em 0 10em 0;
+        # }
 
         .banner br {
             display: none;
@@ -3684,9 +3683,9 @@
 
     @media screen and (max-width: 736px) {
 
-        .banner {
-            padding: 4em 0 2em 0;
-        }
+        # .banner {
+        #     padding: 4em 0 2em 0;
+        # }
 
         .banner h1 {
             font-size: 1.75em;
@@ -3695,9 +3694,9 @@
 
     @media screen and (max-width: 480px) {
 
-        .banner {
-            padding: 5em 0 3em 0;
-        }
+        # .banner {
+        #     padding: 5em 0 3em 0;
+        # }
 
         .banner ul {
             margin-top: 1em;

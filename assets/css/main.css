@@ -3732,6 +3732,34 @@
         }
     }
 
+    #upcoming {
+        background-color: #6e6e6e;
+        padding: 3em 0 2em 0;
+    }
+
+    #upcoming .inner {
+        font-size: 120%;
+        font-weight: 500; 
+    }
+
+    #upcoming h3 {
+        color: #fff;
+    }
+
+    @media screen and (max-width: 980px) {
+
+        #upcoming {
+            padding: 4em 0 2em 0;
+        }
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #upcoming {
+            padding: 2em 0 0.1em 0;
+        }
+    }
+
     #two {
         padding: 6em 0 4em 0;
         background: #f3f3f3;

@@ -3126,6 +3126,7 @@
         width: calc(100% - 6em);
         margin: 0 auto;
         position: relative;
+        height: 125px;
     }
 
     @media screen and (max-width: 480px) {
@@ -3229,11 +3230,11 @@
 
     /* Menu */
     #nav {
-        /* display: inline-block; */
-        display: none;
+        display: inline-block;
+        float: right;
     }
 
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1280px) {
 
         #nav {
             display: none;
@@ -3248,7 +3249,7 @@
         right: 3em;
         top: .5em;
         width: 3em;
-        display: block;
+        display: none;
         z-index: 10002;
     }
 
@@ -3271,7 +3272,7 @@
         width: 3.5em;
     }
 
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1280px) {
 
         .navPanelToggle {
             display: block;

@@ -3745,6 +3745,7 @@
 
     #upcoming h3 {
         color: #fff;
+        margin: 0 0 0 0;
     }
 
     @media screen and (max-width: 980px) {
@@ -4173,5 +4174,11 @@
     .image-caption {
         font-size: 60%;
         text-align: left;
+    }
+
+    .image-caption-two {
+        font-size: 60%;
+        text-align: left;
+        float: right;
     }
 
